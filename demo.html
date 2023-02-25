@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            .pc,
+            .tablet,
+            .mobile {
+                display: none;
+            }
+
+            
+            @media(max-width: 1024px) and (min-width: 720px) {
+                .tablet {
+                    display: block;
+                }
+            }
+
+            @media(max-width: 720px) {
+                .mobile {
+                    display: block;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1> Media Query </h1>
+        <h2 class="pc"> PC </h2>
+        <h2 class="tablet"> Tablet </h2>
+        <h2 class="mobile"> Mobile </h2>
+
+    </body>
+</html>
+
